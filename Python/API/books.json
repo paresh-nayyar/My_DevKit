@@ -31,35 +31,5 @@
   "title": "A Clash of Kings",
   "author": "George RR Martin",
   "published": 1998
- },
- "Item6": {
-  "id": 100,
-  "title": "A Game of Thrones",
-  "author": "George RR Martin",
-  "published": 1996
- },
- "Item7": {
-  "id": 100,
-  "title": "A Game of Thrones",
-  "author": "George RR Martin",
-  "published": 1996
- },
- "Item8": {
-  "id": 100,
-  "title": "A Game of Thrones",
-  "author": "George RR Martin",
-  "published": 1996
- },
- "Item9": {
-  "id": "200",
-  "title": null,
-  "author": "hello",
-  "published": null
- },
- "Item10": {
-  "id": 180,
-  "title": "A Clash of Kings",
-  "author": "George RR Martin",
-  "published": 1998
  }
 }
