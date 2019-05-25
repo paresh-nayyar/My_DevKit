@@ -1,0 +1,65 @@
+{
+ "Item1": {
+  "id": 0,
+  "title": "A Fire Upon the Deep",
+  "author": "Vernor Vinge",
+  "first_sentence": "The coldsleep itself was dreamless.",
+  "published": "1992"
+ },
+ "Item2": {
+  "id": 1,
+  "title": "The Ones Who Walk Away From Omelas",
+  "author": "Ursula K. Le Guin",
+  "first_sentence": "With a clamor of bells that set the swallows soaring, the Festival of Summer came to the city Omelas, bright-towered by the sea.",
+  "published": "1973"
+ },
+ "Item3": {
+  "id": 2,
+  "title": "Dhalgren",
+  "author": "Samuel R. Delany",
+  "first_sentence": "to wound the autumnal city.",
+  "published": "1975"
+ },
+ "Item4": {
+  "id": 100,
+  "title": "A Game of Thrones",
+  "author": "George RR Martin",
+  "published": 1996
+ },
+ "Item5": {
+  "id": 101,
+  "title": "A Clash of Kings",
+  "author": "George RR Martin",
+  "published": 1998
+ },
+ "Item6": {
+  "id": 100,
+  "title": "A Game of Thrones",
+  "author": "George RR Martin",
+  "published": 1996
+ },
+ "Item7": {
+  "id": 100,
+  "title": "A Game of Thrones",
+  "author": "George RR Martin",
+  "published": 1996
+ },
+ "Item8": {
+  "id": 100,
+  "title": "A Game of Thrones",
+  "author": "George RR Martin",
+  "published": 1996
+ },
+ "Item9": {
+  "id": "200",
+  "title": null,
+  "author": "hello",
+  "published": null
+ },
+ "Item10": {
+  "id": 180,
+  "title": "A Clash of Kings",
+  "author": "George RR Martin",
+  "published": 1998
+ }
+}
