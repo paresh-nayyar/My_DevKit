@@ -31,5 +31,11 @@
   "title": "A Clash of Kings",
   "author": "George RR Martin",
   "published": 1998
+ },
+ "Item6": {
+  "id": 102,
+  "title": "A Storm of Swords",
+  "author": "George RR Martin",
+  "published": 2000
  }
 }

@@ -21,8 +21,12 @@ req6 = requests.post('http://{}:{}/books/add'.format(address, port),
                      json={'id': 100, 'title': 'A Game of Thrones', 'author': 'George RR Martin',
                            'published': 1996})
 req7 = requests.post('http://{}:{}/books/add'.format(address, port),
-                     json={'id': 180, 'title': 'A Clash of Kings', 'author': 'George RR Martin',
+                     json={'id': 101, 'title': 'A Clash of Kings', 'author': 'George RR Martin',
                            'published': 1998})
+req8 = requests.post('http://{}:{}/books/add'.format(address, port),
+                     json={'id': 102, 'title': 'A Storm of Swords', 'author': 'George RR Martin',
+                           'published': 2000})
+
 
 req8 = requests.post('http://{}:{}/books/db/add'.format(address, port),
                      data={'id': 110, 'title': 'A Game of Thrones', 'author': 'George RR Martin',
@@ -31,6 +35,7 @@ req8 = requests.post('http://{}:{}/books/db/add'.format(address, port),
 req9 = requests.post('http://{}:{}/books/db/add'.format(address, port),
                      data={'id': 6009, 'title': 'A Clash of Kings test', 'author': 'George RR Martin',
                            'published': 1998})
+
 # Sending image
 img = cv2.imread('../Image Classification/PetImages/Dog/0.jpg')
 _, img_encoded = cv2.imencode('.jpg', img)
