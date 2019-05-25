@@ -49,5 +49,26 @@ cur = conn.cursor()
 df = pd.DataFrame(cur.execute('SELECT * FROM books').fetchall(),
                   columns=['id', 'pubished', 'author', 'title', 'first_sentence'])
 
+df['id'] = range(1001, (1001+df.shape[0]))
+cur.execute("DROP TABLE books;")
+conn.commit()
+df.to_sql('books', conn, index=False)
+conn.commit()
+
+# Adding a new table
+cur.execute("CREATE TABLE person(id INTEGER PRIMARY KEY,\
+                                 first_name TEXT,\
+                                 last_name TEXT,\
+                                 age INTEGER);")
+
+cur.execute("INSERT INTO person\
+             VALUES (101, 'Chris', 'Hemsworth',35); ")
+
+df2 = pd.DataFrame(cur.execute('SELECT * FROM person').fetchall(),
+                  columns=['id', 'first_name', 'last_name', 'age'])
+
+cur.execute("ALTER TABLE books DROP COLUMN id;")
 cur.execute("DELETE FROM books WHERE id = 110;")
 conn.commit()
+cur.close()
+conn.close()
