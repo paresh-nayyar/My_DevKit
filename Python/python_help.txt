@@ -1,0 +1,35 @@
+Python help commands
+https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html
+
+# Search for available python versions
+conda search python
+
+# search for a package in 
+conda search <package-name>
+
+# Checking list of installed packages
+conda list
+pip list
+
+# Installing a particular python version
+conda install python=<version number>
+
+# Installing package using Anaconda terminal
+py -m pip install <package-name> 
+
+# Installing package using Jupyter notebook
+import sys
+!{sys.executable} -m pip install <package-name>
+
+# List all the available environments
+conda info --envs
+
+# Create a new environment
+conda create --name <env-name> python=<version>
+
+# Activate a particular environment
+conda activate <environment-name>
+
+#ftp link
+python -m http.server
+

@@ -1,0 +1,38 @@
+1) Open a file
+
+$ notepad <filename> //can edit or create a new file
+$ touch <filename> //creates a new file
+$ echo "this is my text" > <filename>  //add this line to file
+$ echo "this is my second line" >> <file name>  //append to file
+$ vi <filename> //opens the file
+
+2) Create A New Repository
+$ git init
+$ git add README.md
+$ git commit -m "first commit"
+$ git remote add origin git@github.com:paresh-nayyar/Test.git  #SSH Key
+$ git push -u origin master
+
+3) Undo git add command
+$ git reset
+
+4) Hard pull
+$ git fetch --all
+$ git reset --hard origin/<branch_name>
+
+5) Undo recent added files
+$ git reset
+
+6) See the changes
+$ git diff <file-name>
+
+7) Get last commit 
+$ git log -1
+$ git log --name-only # last commit summary
+
+8) List remote repos
+$ git remote -v
+
+9) If origin already exists issue
+$ git remote rm origin
+$ git remote add origin git@github.com:username/myapp.git
