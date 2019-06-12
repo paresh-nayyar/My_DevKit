@@ -67,7 +67,7 @@ cur.execute("INSERT INTO person\
 df2 = pd.DataFrame(cur.execute('SELECT * FROM person').fetchall(),
                   columns=['id', 'first_name', 'last_name', 'age'])
 
-cur.execute("ALTER TABLE books DROP COLUMN id;")
+# Deleting Records
 cur.execute("DELETE FROM books WHERE id = 110;")
 conn.commit()
 cur.close()

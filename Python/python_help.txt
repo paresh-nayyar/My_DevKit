@@ -30,6 +30,8 @@ conda create --name <env-name> python=<version>
 # Activate a particular environment
 conda activate <environment-name>
 
-#ftp link
+# ftp link
 python -m http.server
 
+# install packages
+pip install -r requirements.txt
